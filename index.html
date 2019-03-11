@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Desdevol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/gif" href="favicon.ico" />
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="portfolio.css" />
+    <!--Bulma CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="bulma-0.7.4/css/bulma.min.css"
+    />
+    <!--Fontawesome-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <!--Scrollreveal animation-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Eczar:700"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="debug.css" /> -->
+  </head>
+
+  <body>
+    <section id="main-cover" class="hero is-fullheight">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar is-transparent">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="eczar is-size-3 navbar-item" href="index.html">
+                Desdevol
+              </a>
+              <span
+                class="navbar-burger burger has-text-white"
+                data-target="navbarMenuHeroC"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a
+                  class="navbar-item has-text-white underline"
+                  href="#education"
+                >
+                  Education
+                </a>
+                <a class="navbar-item has-text-white underline" href="#skill">
+                  Skill
+                </a>
+                <a class="navbar-item has-text-white underline" href="#project">
+                  Projects
+                </a>
+                <a
+                  class="navbar-item has-text-white underline"
+                  href="#about-me"
+                >
+                  What I Like
+                </a>
+                <a class="navbar-item has-text-white underline" href="#contact">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: main cover -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <figure class="center">
+            <img
+              src="images/desdevol.png"
+              alt="DESDEVOL"
+              style="max-width: 15rem;"
+            />
+          </figure>
+          <h1 class="title is-1 has-text-white">
+            My name is <span class="is-italic has-text-info">Desmond Lee</span>.
+            <br /><br />
+          </h1>
+          <h2 class="subtitle has-text-white">
+            I'll be a fresh graduate in a few months. I like web developing,
+            either front-end or back-end. <br />
+            <br />
+            <strong class="is-size-5 has-text-white"
+              >Scroll to see more about me!</strong
+            >
+            <br />
+            <a href="#education">
+              <i
+                class="fas fa-angle-double-down is-size-2 has-text-primary bounce"
+                style="margin-top: 4rem"
+              ></i>
+            </a>
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!--Education section-->
+    <section id="education" class="section has-background-light">
+      <div class="container is-white has-text-centered is-fluid">
+        <h2 class="title is-size-1" style="padding-bottom: 2rem">Education</h2>
+        <div class="tile is-ancestor box">
+          <div class="tile is-4">
+            <figure
+              class="image center"
+              style="padding-bottom: 2rem; margin-right: 2rem"
+            >
+              <img src="images/profile.jpeg" style="max-width: 20rem" />
+            </figure>
+          </div>
+          <div class="tile is-6">
+            <div class="content is-medium">
+              <h2 class="title is-size-3">Diploma in Information Technology</h2>
+              <h3 class=" is-size-5 has-text-left">
+                Southern University College, from 2017-2019
+              </h3>
+
+              <p class="is-size-6 has-text-left  has-text-justified">
+                I chose to study Information Technology because I find it
+                interesting to work with computer. At first, programming was
+                tough, it required me to spend extra time in order to understand
+                it. From knowing nothing about how to code, I slowly grew my
+                interest and passion for coding throughout my Diploma course.
+              </p>
+              <ul class="has-text-left  has-text-justified">
+                <li>Final Year Project selected for open day's exhibition</li>
+                <li>Received Dean's list in 2018 C Semester (3.80 GPA)</li>
+                <li>Grade A for Intermediate English</li>
+                <li>CGPA of 3.6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill section -->
+    <section id="skill" class="hero is-fullheight has-background-dark">
+      <div class="container">
+        <div class="hero-head">
+          <h1 class="title is-size-1 has-text-white" style="margin-top: 5rem">
+            Skills
+          </h1>
+        </div>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">HTML</h3>
+              <progress class="progress is-primary" value="85" max="100"
+                >15%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">CSS</h3>
+              <progress class="progress is-info" value="65" max="100"
+                >30%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">PHP</h3>
+              <progress class="progress is-success" value="50" max="100"
+                >30%</progress
+              >
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">JQuery</h3>
+              <progress class="progress is-warning" value="35" max="100"
+                >30%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">Java</h3>
+              <progress class="progress is-danger" value="30" max="100"
+                >30%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">Photoshop</h3>
+              <progress class="progress is-link" value="65" max="100"
+                >30%</progress
+              >
+            </div>
+          </div>
+          <hr class="has-background-grey" />
+          <h2 class="is-size-3 has-text-white" style="margin: 5rem 0 1rem 0rem">
+            Language Proficiency
+          </h2>
+          <div class="columns">
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">English</h3>
+              <progress class="progress is-info" value="85" max="100"
+                >85%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">Madarin</h3>
+              <progress class="progress is-info" value="80" max="100"
+                >80%</progress
+              >
+            </div>
+            <br />
+            <div class="column">
+              <h3 class="is-size-4 has-text-white">Malay</h3>
+              <progress class="progress is-info" value="60" max="100"
+                >60%</progress
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section -->
+    <section id="project" class="section has-background-light">
+      <div class="container">
+        <h1 class="title is-size-1 center">Projects</h1>
+
+        <div class="columns">
+          <!-- EzDine -->
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="images/ezdine.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="title is-size-4">EzDine</h4>
+                  <time class="subtitle is-size-6" datetime="2016-1-1"
+                    >November 2018</time
+                  ><br />
+                  EzDine is a restaurant management system built with PHP and
+                  Javascript.
+                  <br />
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a
+                  href="https://github.com/desdevol/ezdine"
+                  class="card-footer-item"
+                  >Download on Github</a
+                >
+              </footer>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="images/desdevol2.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="title is-size-4">Portfolio</h4>
+                  <time class="subtitle is-size-6" datetime="2016-1-1"
+                    >March 2019</time
+                  ><br />
+                  I built this portfolio website using
+                  <a href="https://bulma.io/">Bulma.io</a>. It's a pure CSS
+                  framework that has no Javascript!
+                  <br />
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="" class="card-footer-item"
+                  >You are already viewing it!</a
+                >
+              </footer>
+            </div>
+          </div>
+
+          <!-- HTML Website -->
+          <div class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-square">
+                  <img src="images/lift-and-gain.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="title is-size-4">Lift and Gain</h4>
+                  <time class="subtitle is-size-6" datetime="2016-1-1"
+                    >May 2018</time
+                  ><br />
+                  It was my first HTML website. I've build it using
+                  <a href="https://materializecss.com/">Materialize.css</a>. The
+                  sleek components sure make my first website looks good!
+                  <br />
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a
+                  href="https://github.com/desdevol/ezdine"
+                  class="card-footer-item"
+                  >View on Github</a
+                >
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about-me" class="section has-background-white">
+      <div class="container">
+        <h1 class="title is-size-1 center">What I Like</h1>
+        <!-- Basketball -->
+        <div class="tile is-ancestor box has-text-justified">
+          <div class="tile is-parent is-4">
+            <div class="tile is-child">
+              <figure class="image">
+                <img
+                  src="images/basketball.jpg"
+                  style="filter: saturate(1.2)"
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child content">
+              <h2 class="title is-size-2">Basketball</h2>
+              <p>
+                I like playing basketball since I was in primary school.
+                Everything about basketball was so cool to me. I've learned a
+                lot from playing basketball. Especially the importance of
+                teamwork. Basketball is not a one man sport, it requires you to
+                pass, trusting other teammates, and try to make plays for each
+                other for the victory.
+              </p>
+              <p>
+                As a 164cm guy, height is always an disadvantage when it comes
+                to basketball. However, I never stop playing basketball because
+                of this. I looked up to many shorter basketball player such as
+                Chris Paul and realize that you have to play smart and play hard
+                at the same time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- Workout -->
+        <div class="tile is-ancestor box has-text-justified">
+          <div class="tile is-parent">
+            <div class="tile is-child content">
+              <h2 class="title is-size-2">Workout</h2>
+              <p>
+                I started working out with calisthenics. When I was in
+                highschool, I was a scout and I had to do push-ups and sit-ups
+                for our physical fitness. I always tried to do my best so I
+                always looked like I was ahead of my peers.
+              </p>
+              <p>
+                As I grow older, I started hitting the gym as a friend of mine
+                invited me to go to a gym with him. I started to grew interest
+                in this hobby. It's a love-hate relationship because it puts me
+                in an uncomfortable zone but it always reminds me that I'm
+                improving. The result from the hard work is always satisfying as
+                I see my body changes.
+              </p>
+              <p>
+                Of course, health is also another reason that I still go to the
+                gym. While keeping our body in shape is important, keeping our
+                body healthy is so much more important, we could not work if we
+                are sick, right?
+              </p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child">
+              <figure class="image is-1by1">
+                <img
+                  src="images/workout.jpg"
+                  style="filter: saturate(1.5); background-size: cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- Video Games -->
+        <div class="tile is-ancestor box has-text-justified">
+          <div class="tile is-parent is-4">
+            <div class="tile is-child">
+              <figure class="image is-1by1">
+                <img
+                  src="images/videogame.jpg"
+                  style="filter: saturate(0.5); background-size: cover"
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child content">
+              <h2 class="title is-size-2">Video Games</h2>
+              <p>
+                Who else doesn't like video games? Just be honest, most of the
+                programmer, IT guys like playing video games. I think video
+                games are not necessary bad as many article talked about. With
+                the right time management, it actually helps with our creativity
+                and thinking speed. It is because sometime we just have to make
+                quick decision in video games.
+              </p>
+              <p>
+                My favourite has to be Metal Gear Solid series, it has gameplay,
+                story, character design at its best. From PS1 to PSP, to PC, I
+                have played plenty of games. Here is a list of my favourite:
+              </p>
+              <ul>
+                <li>Monster Hunter series</li>
+                <li>Borderlands 2</li>
+                <li>Counter Strike</li>
+                <li>Dying Light</li>
+                <li>God of War series</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- Memes -->
+        <div class="tile is-ancestor box has-text-justified">
+          <div class="tile is-parent">
+            <div class="tile is-child content">
+              <h2 class="title is-size-2">Memes!</h2>
+              <p>
+                Besides watching Youtube, looking for solution on stackoverflow,
+                I guess browsing memes is one of my habit.
+              </p>
+              <p>
+                It's a bit of a shame if you are not a fan of meme yet, because
+                they are so funny! Well, some may find memes to be very
+                sarcastic or offensive, but I think that we do need some sarcasm
+                in life and just laugh it off right?
+              </p>
+              <p>
+                Browsing r/memes on reddit for 15 minutes get a good laugh in
+                front of the computer alone, sometimes this is just enough to
+                make my day despite all the heavy assignments, Haha! I'm
+                probably a weird guy though.
+              </p>
+              <p>
+                If you are looking for a meme now, there is a meme just right at
+                the side!
+              </p>
+            </div>
+          </div>
+          <div class="tile is-parent is-4">
+            <div class="tile is-child">
+              <figure class="image is-1by1">
+                <img
+                  src="images/programming-meme.jpg_large"
+                  style="filter: saturate(1.5); background-size: cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="hero is-fullheight gradientbg">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-size-1 has-text-light">Contact</h1>
+          <h2 class="subtitle is-size-2 has-text-white">
+            <a href="mailto:desleeyw@gmail.com"><i class="fas fa-envelope has-text-success"></i></a>
+             desleeyw@gmail.com
+          </h2>
+          <br />
+          <!-- Icons -->
+          <div class="columns">
+            <div class="column floating">
+              <a href="https://www.instagram.com/desdevol">
+                <i class="fab fa-instagram is-extra-large has-text-white"></i>
+              </a>
+            </div>
+            <div class="column floating">
+              <a href="https://github.com/desdevol">
+                <i
+                  class="fab fa-github-square is-extra-large has-text-white"
+                ></i>
+              </a>
+            </div>
+            <div class="column floating">
+              <a href="https://www.deviantart.com/desdevol">
+                <i class="fab fa-deviantart is-extra-large has-text-white"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Up arrow -->
+          <a href="#">
+            <i
+              class="fas fa-caret-square-up is-size-2 has-text-primary"
+              style="margin-top: 5rem"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
