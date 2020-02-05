@@ -8,9 +8,25 @@ import '@quasar/extras/fontawesome-v5/fontawesome-v5.css'
 import { Quasar } from 'quasar'
 
 Vue.use(Quasar, {
-    config: {},
-    components: { /* not needed if importStrategy is not 'manual' */ },
-    directives: { /* not needed if importStrategy is not 'manual' */ },
-    plugins: {
-    }
-})
+    config: {
+        brand: {
+            primary: "#232931",
+            secondary: "#86003c",
+            accent: "#c72c41",
+
+            dark: "#1d1d1d",
+
+            positive: "#21BA45",
+            negative: "#C10015",
+            info: "#31CCEC",
+            warning: "#F2C037"
+        }
+    },
+    components: {
+        /* not needed if importStrategy is not 'manual' */
+    },
+    directives: {
+        /* not needed if importStrategy is not 'manual' */
+    },
+    plugins: {}
+});
