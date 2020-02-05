@@ -1,9 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "./quasar";
-import './quasar'
-import './quasar'
-import './quasar'
+import "./assets/css/style.css";
 
 Vue.config.productionTip = false;
 

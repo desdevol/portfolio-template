@@ -1,0 +1,13 @@
+:root {
+    --primary: #232931;
+    --secondary: #86003c;
+    --accent: #c72c41;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-content {
+    font-family: 'Roboto', sans-serif;
+}
